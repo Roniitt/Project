@@ -1,7 +1,7 @@
 
 const mongoose = require("mongoose")
 
-mongoose.connect("mongodb+srv://ronitgarg:admin123@cluster0.wedfzpn.mongodb.net/todo?retryWrites=true&w=majority")
+mongoose.connect("mongodb+srv://ronitgarg:abcd@cluster0.wedfzpn.mongodb.net/todo?retryWrites=true&w=majority")
 
 const schema  = mongoose.Schema({
     title : String , 
